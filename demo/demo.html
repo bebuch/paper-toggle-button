@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>paper-toggle-button demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../../paper-styles/demo-pages.html">
+    <link rel="import" href="../paper-toggle-button.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic paper-toggle-button demo</h3>
+      <demo-snippet>
+        <template>
+          <h3>display:block</h3>
+
+          <paper-toggle-button>Toggle</paper-toggle-button>
+          <paper-toggle-button checked>Toggle</paper-toggle-button>
+          <paper-toggle-button disabled>Disabled</paper-toggle-button>
+          <paper-toggle-button invalid>Invalid</paper-toggle-button>
+
+          <h3>display:inline-block</h3>
+
+          <paper-toggle-button style="display:inline-block;">Toggle</paper-toggle-button>
+          <paper-toggle-button style="display:inline-block;" checked>Toggle</paper-toggle-button>
+          <paper-toggle-button style="display:inline-block;" disabled>Disabled</paper-toggle-button>
+          <paper-toggle-button style="display:inline-block;" invalid>Invalid</paper-toggle-button>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
